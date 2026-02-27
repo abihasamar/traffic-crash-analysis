@@ -9,19 +9,30 @@ Analysis of 7.7 million US traffic crash records (2016-2023) to identify pattern
 
 ## Key Findings
 ### 1. Severe crashes are rare but predictable
+<img width="551" height="283" alt="Imbalanced" src="https://github.com/user-attachments/assets/b48c7734-29e9-43eb-8868-667fbb52624a" />
+
 - Only **1.8%** of crashes are severe, but they follow clear patterns
+  
 ### 2. Geographic concentration
+<img width="1772" height="1132" alt="States" src="https://github.com/user-attachments/assets/6f42d626-bb3f-4ee1-997c-d5a68c8cd11a" />
+
 - High-risk states (MD, AR, WY, WI, DE): **5-9%** severe crash rates
 - Low-risk states (MN, ND, OK, RI, SC): **1-2%** severe crash rates
 ### 3. Infrastructure gap: "Invisible Junctions"
+<img width="1287" height="1197" alt="Road Insfrastructure" src="https://github.com/user-attachments/assets/cf3490d3-8bf9-436f-a699-90bf7621cd5f" />
+
 - Non-signaled junctions: **862 severe crashes**
 - Signaled junctions: **15 severe crashes**
 - **57x higher risk** at junctions without traffic signals
 ### 4. Temporal patterns
+<img width="589" height="241" alt="Unsignaled Junction" src="https://github.com/user-attachments/assets/94f6c72d-72a5-4a3f-8e9e-1739ad9d4225" />
+
 - Peak: **7:00 AM** (morning commute)
 - Elevated throughout afternoon (1-6 PM)
 - NOT dominated by nighttime hours
 ### 5. Weather paradox
+<img width="554" height="225" alt="Weather" src="https://github.com/user-attachments/assets/194f055f-63d0-435c-8d93-2acf677248ab" />
+
 - **33% elevated risk** in clear, fair weather
 - Theory: Good conditions → higher speeds + reduced caution → more severe outcomes
 ##  Technical Approach
@@ -63,7 +74,7 @@ Analysis of 7.7 million US traffic crash records (2016-2023) to identify pattern
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 ```
 traffic-crash-analysis/
 ├── README.md                  
